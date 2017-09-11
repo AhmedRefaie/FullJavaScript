@@ -1,26 +1,34 @@
 document.write("A7mad"); /*commad to write*/
 /* for comments*/
 
+
 var ref = 32;
 document.write(ref); /*variables and use*/
+
 
 var pizza = -2.432;
 document.write(pizza);/*works with negative and decemals*/
 
+
 var pizza = "Ana ga3an fash5";
 document.write(pizza); /*need to but "" for text*/
 
+
 var pizza = "Refaie said, \"Ana ga3an fash5\"";
 document.write(pizza); /*\escape char for more text \*/
+
 
 var name = "Refaie" ;
 var age = 24;
 document.write(name+" is my name and my age is "+age);/*using var and txt use +*/
 
+
 var pizza = "iam Yummy";
 var tuna = "iam a fish";
 var refaie= "wtf";
 document.write(pizza + tuna + refaie);/*stick the flick*/
+
+
 
 function funky(){
 	alert("Ouch!!");
@@ -29,6 +37,8 @@ function funky(){
 <form>
 <input type="button" value="touch me" onclick="funky()">
 </form>/*making a function and calling it*/
+
+
 
 function pizza(x){
 	alert("I love " + x);
@@ -44,6 +54,91 @@ apples("Ahmed", "Refaie");
 apples("Muslims", "Non-Muslims");
 apples("strawberry", "coconut");/*more premiters use*/
 
+
+
+function adding(a,b){
+	var c = a+b;
+	return c;
+} /*return statment*/
+document.write(adding(3,6));
+
+
+
+
+function first(){
+	document.write("1st babe,");
+}
+function second(){
+	document.write("2nd babe");
+}
+function start(){
+	first();
+	second();
+} /*calling a fun form a fun its really fun*/
+start();
+
+
+
+function first(){
+	document.write(" 1st ");
+	second();
+}
+	
+function second(){
+	document.write(" 2nd ");
+	first();
+}/* endless loop fun*/
+first();
+
+
+
+var girl="Noura";
+function lol(){
+	var girl="Noura";
+	document.write(girl);
+}
+	/*global and local var*/
+lol();
+document.write(girl);
+
+
+
++add -sub *Mult /divid %reminder    /*math opes*/
+
+var rox = 76;
+rox++;
+rox--;
+document.write(rox);
+
+
+
+var txt = 20;
+txt += 100;
+txt *= 90;
+txt /= 80;
+txt -= 70;
+	/*assignment operations*/
+document.write(txt);
+
+
+
+var small = 34;
+var big = 100;
+	
+if(small!=big){
+	document.write("Yaaay i love biggies");
+}/*if statment begins*/
+
+
+
+var ahmed = 10000;
+var okka = 987654321;
+	
+if(ahmed==okka){
+	document.write("its true");
+}else{
+	document.write("its false");
+}/* if else statment*/
 
 
 
