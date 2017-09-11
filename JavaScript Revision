@@ -1,0 +1,200 @@
+document.write("A7mad"); /*commad to write*/
+/* for comments*/
+
+var ref = 32;
+document.write(ref); /*variables and use*/
+
+var pizza = -2.432;
+document.write(pizza);/*works with negative and decemals*/
+
+var pizza = "Ana ga3an fash5";
+document.write(pizza); /*need to but "" for text*/
+
+var pizza = "Refaie said, \"Ana ga3an fash5\"";
+document.write(pizza); /*\escape char for more text \*/
+
+var name = "Refaie" ;
+var age = 24;
+document.write(name+" is my name and my age is "+age);/*using var and txt use +*/
+
+var pizza = "iam Yummy";
+var tuna = "iam a fish";
+var refaie= "wtf";
+document.write(pizza + tuna + refaie);/*stick the flick*/
+
+function funky(){
+	alert("Ouch!!");
+}
+</script>
+<form>
+<input type="button" value="touch me" onclick="funky()">
+</form>/*making a function and calling it*/
+
+function pizza(x){
+	alert("I love " + x);
+}
+pizza("pizza");
+pizza("meat");
+pizza("chicken");/* using the pratsis for more info*/
+
+function apples(one, two) {
+	document.write(one + " is better than " + two + "<br/>");
+}
+apples("Ahmed", "Refaie");
+apples("Muslims", "Non-Muslims");
+apples("strawberry", "coconut");/*more premiters use*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
