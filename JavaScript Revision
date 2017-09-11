@@ -143,10 +143,73 @@ if(ahmed==okka){
 
 
 
+var firstName = "Ahmed";
+var lastName = "lol";
+	
+if(firstName=="Ahmed"){
+	if(lastName=="Refaie"){
+		document.write("Welcome Refaie sir !");
+	}else{
+		document.write("Who the fuck are you!?");
+	}
+}/* Nesting babe*/
 
 
 
 
+var first ="Refaie";
+var last = "ElDsoky";
+	
+if( (first=="Refaie") && (last=="ElDsoky") ){
+	document.write("Refaie el 2stora");
+}else{
+	docuemnt.write("Your not the ostora!!");
+}/* testing deffrent conditions*/
+
+
+
+var first ="Ahmed";
+var last = "Refaie";
+	
+if( (first=="Refaie") || (last=="Refaie") ){
+	document.write("Your one of the family welcome");
+}else{
+	docuemnt.write("who the fuck are you!?");
+}/* or condotion one is enought*/
+	
+	
+
+
+var girl = "Nour";
+	
+switch(girl){
+	case "Shahd":
+		document.write("Yeah she is very cute");
+		break;
+	case "Gana":
+		document.write("Yeah she is a good mother");
+		break;
+	case "Noura":
+		document.write("Yeah she is very cute but boring i think");
+		break;
+	default:
+		document.write("Yeah she is cool marry her");
+}/* switch for options*/
+
+
+
+for(x=0;x<10;x++){
+	document.write("I will Smoke  <br />");
+}/* for loop */
+
+
+
+var x = 1;
+	
+while(x<=10){
+	document.write(x + "Wow she twinked <br />");
+	x++;
+}/* while loop*/
 
 
 
