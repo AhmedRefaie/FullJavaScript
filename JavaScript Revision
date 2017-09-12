@@ -345,39 +345,140 @@ document.write(people);/*methods in arrays concat stick 2 arrays 2 gether*/
 
 
 
+var movies = new Array("Avatar","Ghost Rider","Fight club","Pulb fiction");
+	
+var string1 = movies.join(" - ");
+	
+document.write(string1); /*join method*/
+
+
+
+var movies = new Array("Avatar","Ghost Rider","Fight club","Pulb fiction");
+
+document.write(movies[3] + "<br />");
+movies.pop(); /*deleates the last element*/
+document.write(movies[3] + "<br />");
+
+
+
+var food = new Array("Pizza","Sea Food","Chiken","Meat");
+
+food.reverse();
+food.push("Bacon","Eggs");
+food.sort();
+document.write(food);/*array more methods*/
+
+
+
+var pie = prompt("Enter your name:", "");
+
+document.write("Hello " +pie);/* scanf of java*/
 
 
 
 
+var crap = new Array(3);
+
+for(i=1;i<=3;i++){
+	crap[i] = prompt("Add sometihng to the array", "");
+}/*adding array elments using for loop*/
+document.write(crap[1]+crap[2]+crap[3]);
 
 
 
 
+var stuff = new Array("Ahmad","zy","El","7ag","ahmed");
+
+for(i=0;i<stuff.length;i++){
+	document.write(stuff[i] + "<br />");
+}/*no need to edit your array self counting array*/
 
 
 
 
+ahmed["Color"]="Black";
+ahmed["Food"]="Pizza";
+/* more array stuff*/
+document.write("Ahmed fav food is "+ ahmed["Food"]);
+	
+
+
+
+document.write(Math.PI + "<br />");
+document.write(Math.E + "<br />");
+
+
+
+var n = prompt("Enter a number", "");
+var answer = Math.sqrt(n);
+alert("The squar root of "+ x +" is " answer);/*square root babe*/
+
+
+
+function doSomething(){
+	document.write("Love ");
+}/* interval skill*/
+setInterval("doSomething()", 1000)
 
 
 
 
+function printTime(){
+	var now = new Date();
+	var hours = now.getHours();
+	var mins = now.getMinutes();
+	var seconds = now.getSeconds();
+	document.write(hours+":"+mins+":"+seconds+"<br />");
+}/*clock code babe*/
+setInterval("printTime()", 1000);
 
 
 
 
+<form>
+	Username: <input type="text" />
+	Password: <input type="password" />
+	<input type="submit" value="Submit!">
+</form>
+/* forms and accecing it how many lemnts are in your form*/
+<script type="text/javascript">
+	var x = document.forms[0].length;
+	document.write(x);
 
 
+Username: <input type="text" name="username" />
+	Password: <input type="password" name="password" />
+	<input type="submit" value="Submit!">
+</form>
 
+<script type="text/javascript">
+	var x = document.RefaieForm.username.name;
+	document.write(x);/*accecing emts by names*/
+	
+	
+	
+	
 
+<html>
+<head>
+<script type="text/javascript">
+		function validator(){
+			if(document.refaieForm.Box.checked)
+			alert("Yes it's Checked");
+		else
+			alert("Not checked man !");
+		}
+</script>
+</head>
+<body>
 
-
-
-
-
-
-
-
-
+<form name="refaieForm">
+	<input type="checkbox" name="Box" />
+	<input type="button" value="Press me!" onClick="validator()" />
+</form>
+/* forom validation*/
+</body>
+</html>
 
 
 
