@@ -241,17 +241,106 @@ do{
 
 
 
+var lol = "Hey iam hungry i need pizza";
+	document.write(lol.length); /*object proprties*/
+
+	
+
+
+	
+<html>
+<head>
+<script type="text/javascript">
+	function Human(name,age){
+		this.name = name;
+		this.age = age;/* blueprint of opject what kind or data heald*/
+	}
+	
+	var refaie = new Human("Refaie",20);
+	var khelo = new Human("Khalil",20);/*new opjects*/
+</script>
+</head>
+<body>
+<script type="text/javascript">
+	document.write(khelo.age);/*using the info in opjects*/
+</script>
+
+</body>
+</html>
 
 
 
 
+<html>
+<head>
+<script type="text/javascript">
+	wolf = {name:"Ralf",age:7,kind:"Husky"};
+</script>
+</head>
+<body>
+<script type="text/javascript">
+	document.write(wolf.name);
+</script>
+/*another way to creat opjects called initializers*/
+</body>
+</html>
 
 
 
 
+function human(name,age){
+		this.name=name;
+		this.age=age;
+		this.yearsTillRetire = yearsLeft;
+	}
+	
+	function yearsLeft(){
+		var numYears = 65 - this.age;
+		return numYears;
+	}
+	
+	var ref = new human(Refaie,20);
+
+</script>
+</head>
+<body>
+<script type="text/javascript">
+	/* adding method to your object*/
+	document.write(ref.name());
 
 
 
+var people = new Array("Ahmed","Mony","tifa","3'ona","Mecho");
+	
+document.write(people[0]);	/* new var array creation*/
+
+
+
+var stuff = new Array(3);
+
+stuff[0] = "Weed";
+stuff[1] = "Hash";
+stuff[2] = "Wiske";
+/*another way to creat array*/
+document.write(stuff[1]);
+
+
+
+
+var stuff = new Array();
+
+stuff[0] = "Lol";
+stuff[1] = "Dota";	/*more ways to creat array*/
+
+
+
+var thugs = new Array("Refaie","5alil","Mecho");
+document.write(thugs.length);
+var chicks = new Array("Sara","Nana","Lola");
+
+var people = thugs.concat(chicks);
+
+document.write(people);/*methods in arrays concat stick 2 arrays 2 gether*/
 
 
 
