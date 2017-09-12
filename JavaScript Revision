@@ -214,6 +214,29 @@ while(x<=10){
 
 
 
+var x = 200;
+	
+do{
+		document.write(x + "alo! <br />");
+		x++;
+}while(x<=20); /*do loop ran the code at least 1 time*/
+
+
+
+
+<form>
+	<input type="button" value="Touch Me IF You DARE" onclick="alert('A7a Hankekak Dos ok 27snlak');alert('Ok mt3mlhash tany')"/>
+</form> /* event handler */
+
+
+
+<a href="http://Google.com" onMouseOut="alert('Hey come back')">Hover over me!</a> /*onMouseOver */
+
+
+
+
+<body onLoad="alert('Your webpage is loaded!');">
+/*onload*/
 
 
 
